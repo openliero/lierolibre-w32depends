@@ -230,6 +230,7 @@
       <ProgramDataBaseFileName>$(OutDir)</ProgramDataBaseFileName>
       <WarningLevel>Level3</WarningLevel>
       <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UndefinePreprocessorDefinitions>ZLIB_WINAPI</UndefinePreprocessorDefinitions>
     </ClCompile>
     <ResourceCompile>
       <Culture>0x040c</Culture>
