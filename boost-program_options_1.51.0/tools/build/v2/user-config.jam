@@ -90,3 +90,6 @@
 
 # Configure specific Python version.
 # using python : 3.1 : /usr/bin/python3 : /usr/include/python3.1 : /usr/lib ;
+
+# Custom setting in lierolibre project for mingw 32bit
+using gcc : mingw32 : i686-w64-mingw32-g++ ;
