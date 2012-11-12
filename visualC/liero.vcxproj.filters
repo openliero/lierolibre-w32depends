@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\SDL_mixer-1.2.12\lib\x86\SDL_mixer.dll" />
+    <None Include="..\..\src\Jamfile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\SDL_mixer-1.2.12\lib\x86\SDL_mixer.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="menu">
+      <UniqueIdentifier>{acb328e9-2cd4-414a-b811-e59b7b306eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gfx">
+      <UniqueIdentifier>{eae93f11-d04d-45fc-b811-994dc0d455af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controller">
+      <UniqueIdentifier>{10ef3169-d72e-4bb7-a74f-355ba6229f9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\argParse.cpp" />
+    <ClCompile Include="..\..\src\binReader.cpp" />
+    <ClCompile Include="..\..\src\bobject.cpp" />
+    <ClCompile Include="..\..\src\bonus.cpp" />
+    <ClCompile Include="..\..\src\common.cpp" />
+    <ClCompile Include="..\..\src\configCompat.cpp" />
+    <ClCompile Include="..\..\src\configHelper.cpp" />
+    <ClCompile Include="..\..\src\configInit.cpp" />
+    <ClCompile Include="..\..\src\console.cpp" />
+    <ClCompile Include="..\..\src\constants.cpp" />
+    <ClCompile Include="..\..\src\dataPath.cpp" />
+    <ClCompile Include="..\..\src\filesystem.cpp" />
+    <ClCompile Include="..\..\src\game.cpp" />
+    <ClCompile Include="..\..\src\gfx.cpp" />
+    <ClCompile Include="..\..\src\keys.cpp" />
+    <ClCompile Include="..\..\src\level.cpp" />
+    <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\math.cpp" />
+    <ClCompile Include="..\..\src\ninjarope.cpp" />
+    <ClCompile Include="..\..\src\nobject.cpp" />
+    <ClCompile Include="..\..\src\rand.cpp" />
+    <ClCompile Include="..\..\src\reader.cpp" />
+    <ClCompile Include="..\..\src\replay.cpp" />
+    <ClCompile Include="..\..\src\sdlmain.cpp" />
+    <ClCompile Include="..\..\src\settings.cpp" />
+    <ClCompile Include="..\..\src\sfx.cpp" />
+    <ClCompile Include="..\..\src\sobject.cpp" />
+    <ClCompile Include="..\..\src\sys.cpp" />
+    <ClCompile Include="..\..\src\text.cpp" />
+    <ClCompile Include="..\..\src\to_string.cpp" />
+    <ClCompile Include="..\..\src\weapon.cpp" />
+    <ClCompile Include="..\..\src\weapsel.cpp" />
+    <ClCompile Include="..\..\src\viewport.cpp" />
+    <ClCompile Include="..\..\src\worm.cpp" />
+    <ClCompile Include="..\..\src\controller\commonController.cpp">
+      <Filter>controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\controller\localController.cpp">
+      <Filter>controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\controller\replayController.cpp">
+      <Filter>controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\menu\booleanSwitchBehavior.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\menu\enumBehavior.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\menu\hiddenMenu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\menu\integerBehavior.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\menu\itemBehavior.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\menu\menu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\menu\menuItem.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\menu\timeBehavior.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gfx\blit.cpp">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gfx\font.cpp">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gfx\palette.cpp">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gfx\sprite.cpp">
+      <Filter>gfx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\argParse.hpp" />
+    <ClInclude Include="..\..\src\binReader.hpp" />
+    <ClInclude Include="..\..\src\bobject.hpp" />
+    <ClInclude Include="..\..\src\bonus.hpp" />
+    <ClInclude Include="..\..\src\common.hpp" />
+    <ClInclude Include="..\..\src\configHelper.hpp" />
+    <ClInclude Include="..\..\src\configInit.hpp" />
+    <ClInclude Include="..\..\src\console.hpp" />
+    <ClInclude Include="..\..\src\constants.hpp" />
+    <ClInclude Include="..\..\src\dataPath.hpp" />
+    <ClInclude Include="..\..\src\dummy_config.h" />
+    <ClInclude Include="..\..\src\exactObjectList.hpp" />
+    <ClInclude Include="..\..\src\fastObjectList.hpp" />
+    <ClInclude Include="..\..\src\filesystem.hpp" />
+    <ClInclude Include="..\..\src\game.hpp" />
+    <ClInclude Include="..\..\src\gfx.hpp" />
+    <ClInclude Include="..\..\src\keys.hpp" />
+    <ClInclude Include="..\..\src\level.hpp" />
+    <ClInclude Include="..\..\src\lfs.hpp" />
+    <ClInclude Include="..\..\src\math.hpp" />
+    <ClInclude Include="..\..\src\nobject.hpp" />
+    <ClInclude Include="..\..\src\objectList.hpp" />
+    <ClInclude Include="..\..\src\rand.hpp" />
+    <ClInclude Include="..\..\src\reader.hpp" />
+    <ClInclude Include="..\..\src\rect.hpp" />
+    <ClInclude Include="..\..\src\replay.hpp" />
+    <ClInclude Include="..\..\src\settings.hpp" />
+    <ClInclude Include="..\..\src\sfx.hpp" />
+    <ClInclude Include="..\..\src\sobject.hpp" />
+    <ClInclude Include="..\..\src\sys.hpp" />
+    <ClInclude Include="..\..\src\text.hpp" />
+    <ClInclude Include="..\..\src\to_string.hpp" />
+    <ClInclude Include="..\..\src\weapon.hpp" />
+    <ClInclude Include="..\..\src\weapsel.hpp" />
+    <ClInclude Include="..\..\src\version.hpp" />
+    <ClInclude Include="..\..\src\viewport.hpp" />
+    <ClInclude Include="..\..\src\worm.hpp" />
+    <ClInclude Include="..\..\src\controller\commonController.hpp">
+      <Filter>controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\controller\controller.hpp">
+      <Filter>controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\controller\localController.hpp">
+      <Filter>controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\controller\replayController.hpp">
+      <Filter>controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\menu\arrayEnumBehavior.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\menu\booleanSwitchBehavior.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\menu\enumBehavior.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\menu\hiddenMenu.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\menu\integerBehavior.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\menu\itemBehavior.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\menu\menu.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\menu\menuItem.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\menu\timeBehavior.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\blit.hpp">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\color.hpp">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\font.hpp">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\macros.hpp">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\palette.hpp">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\sprite.hpp">
+      <Filter>gfx</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
